@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+}
+
+nav , img
+{
+    height: 40px;
+}
+body
+{
+    background-image: url(../assets/pexels-photo-4722571.webp);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9px; 
+}
+#form
+{
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+form{
+    border: 1px solid aliceblue;
+    padding: 50px;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+form,div,h1
+{
+ text-align: center;
+ color: aliceblue;
+}
+form,input{
+    opacity: 0.2px;
+}
+.transparent-input {
+    background-color: transparent; /* Makes the background transparent */
+    border: 1px solid aliceblue; /* Removes the border */
+    color: aliceblue; /* Text color, adjust as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    padding: 5px; /* Adjust padding as needed */
+    outline: none;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Removes the outline on focus */
+}
+.outlined-button {
+    background-color: transparent; /* Transparent background */
+    border: 2px solid aliceblue; /* Green border */
+    color: aliceblue; /* Green text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Make the button inline element */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border-radius: 12px; /* Rounded corners */
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.outlined-button:hover {
+    background-color: rgb(90, 12, 12); /* Green background on hover */
+    color: white; /* White text on hover */
+    transform: scale(1.1);
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
